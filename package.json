@@ -1,0 +1,20 @@
+{
+  "name": "codestudy-pro-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"Projeto web pronto em www\"",
+    "sync": "npx cap sync android",
+    "build:apk": "cd android && chmod +x gradlew && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/core": "latest-7",
+    "@capacitor/android": "latest-7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "latest-7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
